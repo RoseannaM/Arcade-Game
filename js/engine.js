@@ -27,7 +27,7 @@ var Engine = (function(global) {
 
     canvas.width = 505;
     canvas.height = 606;
-    doc.body.appendChild(canvas); //TODO: Update html/css
+    doc.body.appendChild(canvas);
 
     /* This function serves as the kickoff point for the game loop itself
      * and handles properly calling the update and render methods.
@@ -97,7 +97,6 @@ var Engine = (function(global) {
         allGems.forEach(function(gem) {
             gem.update();
         });
-        player.update();
     }
 
     /* This function initially draws the "game level", it will then call
