@@ -1,3 +1,15 @@
 body {
+    font-family: 'Fredoka One', cursive;
     text-align: center;
+}
+header {
+    padding-top: 20px;
+}
+
+h1{
+font-size: 400%;
+}
+
+#score{
+    color: #22a9ff;
 }

@@ -1,6 +1,6 @@
 frontend-nanodegree-arcade-game
 ===============================
 
-Students should use this rubric: https://www.udacity.com/course/viewer#!/c-ud015/l-3072058665/m-3072588797
-
-for self-checking their submission.
+Step 1: Clone the repo. 
+Step 2: cd to the file directory and start a HTTP Sever, eg Python -m SimpleHTTPSever/or your preffered way.
+Step 3: Have fun.
