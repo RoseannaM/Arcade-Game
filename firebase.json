@@ -1,0 +1,9 @@
+{
+  "firebase": "simple-frogger",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

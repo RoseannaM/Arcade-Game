@@ -15,7 +15,7 @@ setScore(0);
 
 // Enemies our player must avoid
 var Enemy = function (x, y, speed) {
-    this.sprite = 'images/enemy-bug-blue.png';
+    this.sprite = 'images/enemy-bug-blue-pxl.png';
     this.x = x;
     this.y = y;
     this.speed = speed;
@@ -38,7 +38,7 @@ Enemy.prototype.render = function () {
 
 //The player function, has an image, x & y position and width
 var Player = function (x, y) {
-    this.sprite = 'images/char-cat-girl.png';
+    this.sprite = 'images/char-cat-girl-pxl.png';
     this.x = x;
     this.y = y;
     this.width = 80;
@@ -84,7 +84,7 @@ var player = new Player(200, 370);
 
 //Gem function and related functions
 var Gem = function (xPositions, yPositions) {
-    this.sprite = 'images/Gem Purple.png';
+    this.sprite = 'images/gem-purple-pxl.png';
     this.xpos = xPositions;
     this.ypos = yPositions;
     this.randomPos();
